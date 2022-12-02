@@ -1,0 +1,39 @@
+header{
+    height: 7%;
+    padding: 0 5%;
+    width: 100%;
+    background-color: rgb(136, 0, 171);
+    display: flex;
+    align-items: center;
+    & > h1{
+        width: fit-content;
+        color: white;
+        font-size: 2rem;
+    }
+    & > p{
+        width: fit-content;
+        display: block;
+        margin-left: 3rem;
+        & > a{
+            display: block;
+            width: fit-content;
+            color: white;
+            font-size: 1.6rem;
+        }
+    }
+}
+
+footer{
+    height: 7%;
+    width: 100%;
+    display: block;
+    background-color: rgb(136, 0, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+main{
+    height: 86%;
+}
