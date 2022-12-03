@@ -10,7 +10,8 @@ export const Layout = () => {
         <> 
             <header>
                 <h1>Thread!!</h1>
-                <p><a href="">スレッドを立てる</a></p>
+                <p><a href="http://localhost:3000/thread/new">スレッドを立てる</a></p>
+                <p><a href="http://localhost:3000">トップ</a></p>
             </header>
             <main>
                 <BrowserRouter>

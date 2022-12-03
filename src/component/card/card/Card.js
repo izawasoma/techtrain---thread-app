@@ -5,7 +5,7 @@ export const Card = (props) => {
     let cardItem;
     if(props.url){
         cardItem = 
-        <a href={ props.url }>
+        <a href={ props.url } key={ props.key }>
             <li className="card with-url">
                 <div>{ props.title }</div>
             </li>
@@ -13,7 +13,7 @@ export const Card = (props) => {
     }
     else{
         cardItem = 
-        <li className="card">
+        <li className="card" key={ props.key }>
             <div>{props.title}</div>
         </li>
     }
